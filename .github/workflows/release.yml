@@ -26,7 +26,6 @@ jobs:
       - name: Mark binary as executable
         run: |
           chmod +x fast_farmer_ubuntu/ff
-          chmod +x fast_farmer_macos/ff
       - name: Create release zip
         run:
           for i in fast_farmer_*/; do zip -r -j "${i%/}.zip" "$i"; done

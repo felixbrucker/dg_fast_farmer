@@ -24,9 +24,6 @@ jobs:
           - os: ubuntu-latest
             package-suffix: ubuntu
             binary-name: ff
-          - os: macos-latest
-            package-suffix: macos
-            binary-name: ff
           - os: windows-latest
             package-suffix: windows
             binary-name: ff.exe
